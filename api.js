@@ -1,7 +1,7 @@
 
 let main = document.querySelector(".main")
 
-fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")
+// fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")
 
 .then(x=> x.json())
 .then(array=>{
